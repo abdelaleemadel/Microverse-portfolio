@@ -1,0 +1,33 @@
+:root {
+    --nav-color: #6C6968
+}
+
+nav * {
+    color: white;
+    background-color: #3C3A39;
+}
+
+#logo {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.overLay .fa-xmark {
+    color: var(--nav-color);
+}
+
+.overLay>p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border-bottom: 1px var(--nav-color) solid;
+    line-height: 44px;
+    padding-block: 5px;
+    font-size: 32px;
+}
+
+.overLay a {
+    text-decoration: none;
+}
