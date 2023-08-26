@@ -18,7 +18,7 @@
 
 <body>
     <!-- NAV BAR -->
-    <nav class="position-fixed vw-100">
+    <nav class="position-fixed vw-100 z-3">
         <div class=" container d-flex overflow-auto align-items-center py-2 justify-content-between d-block ">
             <p id="logo" class="m-0">My Logo</p>
             <i class="fa-solid fa-bars fa-lg"></i>
@@ -26,20 +26,20 @@
         <div class="overLay container d-flex flex-column vh-100 vw-100 d-none overflow-auto">
             <i class="fa-solid fa-xmark fa-xl align-self-end my-4"></i>
             <p><a href="#">Portfolio</a></p>
-            <p><a href="#">About</a></p>
+            <p><a href="#about">About</a></p>
             <p><a href="#">Contact</a></p>
         </div>
     </nav>
     <!-- END NAV BAR -->
 
     <header>
-        <div class="container d-flex flex-column vh-100 justify-content-center">
-            <h1>Hey There.<br>I'm Alex.</h1>
+        <div class="container d-flex flex-column justify-content-center py-5">
+            <h1 class="mt-5">Hey There.<br>I'm Alex.</h1>
             <p>I'm a Software Developer</p>
             <p>I can help you build a product , feature or website Look through some of my work and experience! If you
                 like what you see and have a project you need coded,
                 don't hesitate to contact me.</p>
-            <div class="social-icons">
+            <div class="social-icons mb-5">
                 <svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0_48_34)">
                         <g clip-path="url(#clip1_48_34)">
@@ -114,7 +114,167 @@
 
         </div>
     </header>
-    <main></main>
+
+    <main>
+        <!-- WORK -->
+        <section id="works" class="d-flex justify-content-center">
+            <div class="container row gx-0 border-black justify-content-center gy-4 px-4">
+                <div class="header text-center mb-5">
+                    <h2 class="mb-3">My Recent Works</h2>
+                </div>
+                <div class="featured-img mt-5 row gy-4 gx-0">
+                    <picture>
+                        <img src="images/gymfit.png" alt="placeholder" class="w-100">
+                    </picture>
+                    <div class="right-block">
+                        <h3>Multi-Post Stories</h3>
+                        <p>A daily selection of privately personalized reads; no accounts or sign-ups required. has been
+                            the industry's standard dummy text ever since the 1500s, when an unknown printer took a
+                            standard dummy text.</p>
+                        <div class="tags d-flex justify-content-between">
+                            <p class="px-2 py-1 border border">CSS</p>
+                            <p class="px-2 py-1 border">HTML</p>
+                            <p class="px-2 py-1 border">Bootstrap</p>
+                            <p class="px-2 py-1 border">Ruby</p>
+                        </div>
+                        <button type="button" class="btn rounded-0 main-color">See project</button>
+                    </div>
+                </div>
+
+                <div class="frame43 position-relative row gy-4 gx-0">
+                    <div class="card-works px-3">
+                        <div class="right-block pt-4">
+                            <h3>Profesional Art Printing Data</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                                Has
+                                been the industry's standard.</p>
+                            <div class="card-tags d-flex">
+                                <p class="btn text-white rounded-0 me-3">HTML</p>
+                                <p class="btn text-white rounded-0 me-3">Bootstrap</p>
+                                <p class="btn text-white rounded-0">Ruby</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action mx-0 px-0">
+                        <button type="button" class=" w-100 btn rounded-0 main-color">See Project</button>
+                    </div>
+                </div>
+                <div class="frame43 position-relative row gy-4 gx-0">
+                    <div class="card-works px-3">
+                        <div class="right-block pt-4">
+                            <h3>Profesional Art Printing Data</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                                Has
+                                been the industry's standard.</p>
+                            <div class="card-tags d-flex">
+                                <p class="btn text-white rounded-0 me-3">HTML</p>
+                                <p class="btn text-white rounded-0 me-3">Bootstrap</p>
+                                <p class="btn text-white rounded-0">Ruby</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action mx-0 px-0">
+                        <button type="button" class=" w-100 btn rounded-0 main-color">See Project</button>
+                    </div>
+                </div>
+                <div class="frame43 position-relative row gy-4 gx-0">
+                    <div class="card-works px-3">
+                        <div class="right-block pt-4">
+                            <h3>Profesional Art Printing Data</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                                Has
+                                been the industry's standard.</p>
+                            <div class="card-tags d-flex">
+                                <p class="btn text-white rounded-0 me-3">HTML</p>
+                                <p class="btn text-white rounded-0 me-3">Bootstrap</p>
+                                <p class="btn text-white rounded-0">Ruby</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action mx-0 px-0">
+                        <button type="button" class=" w-100 btn rounded-0 main-color">See Project</button>
+                    </div>
+                </div>
+                <div class="frame43 position-relative row gy-4 gx-0">
+                    <div class="card-works px-3">
+                        <div class="right-block pt-4">
+                            <h3>Profesional Art Printing Data</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                                Has
+                                been the industry's standard.</p>
+                            <div class="card-tags d-flex">
+                                <p class="btn text-white rounded-0 me-3">HTML</p>
+                                <p class="btn text-white rounded-0 me-3">Bootstrap</p>
+                                <p class="btn text-white rounded-0">Ruby</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action mx-0 px-0">
+                        <button type="button" class=" w-100 btn rounded-0 main-color">See Project</button>
+                    </div>
+                </div>
+                <div class="frame43 position-relative row gy-4 gx-0">
+                    <div class="card-works px-3">
+                        <div class="right-block pt-4">
+                            <h3>Profesional Art Printing Data</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                                Has
+                                been the industry's standard.</p>
+                            <div class="card-tags d-flex">
+                                <p class="btn text-white rounded-0 me-3">HTML</p>
+                                <p class="btn text-white rounded-0 me-3">Bootstrap</p>
+                                <p class="btn text-white rounded-0">Ruby</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action mx-0 px-0">
+                        <button type="button" class=" w-100 btn rounded-0 main-color">See Project</button>
+                    </div>
+                </div>
+                <div class="frame43 position-relative row gy-4 gx-0">
+                    <div class="card-works px-3">
+                        <div class="right-block pt-4">
+                            <h3>Profesional Art Printing Data</h3>
+                            <p>A daily selection of privately personalized reads; no accounts or sign-ups required.
+                                Has
+                                been the industry's standard.</p>
+                            <div class="card-tags d-flex">
+                                <p class="btn text-white rounded-0 me-3">HTML</p>
+                                <p class="btn text-white rounded-0 me-3">Bootstrap</p>
+                                <p class="btn text-white rounded-0">Ruby</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="action mx-0 px-0">
+                        <button type="button" class=" w-100 btn rounded-0 main-color">See Project</button>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- END WORK -->
+        <!-- ------------------------------------ -->
+
+
+        <!-- ABOUT ME  -->
+        <section id="about" class="row gx-0 gy-4">
+            <div class="about">
+                <h2> About Me</h2>
+                <p>Hello I’m a software developer! I can help you build a product , feature or website Look through some
+                    of my work and experience! If you like what you see and have a project you need coded, don’t
+                    hesitate to contact me.</p>
+                <button type="button" class="btn rounded-0 main-color">Get me resume</button>
+            </div>
+        </section>
+        <!-- END ABOUT ME  -->
+
+        <!-- SKILLS -->
+        <section id="skills" class="row gx-0 gy-4"></section>
+        <!-- END SKILLS -->
+
+    </main>
+
+
     <footer></footer>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/index.js"></script>
@@ -123,6 +283,8 @@
     <i class="fa-solid fa-m"></i>
     <i class="fa-brands fa-twitter"></i>
     <i class="fa-brands fa-angellist"></i>
+
+/* Img Placeholder */
 
 
  -->
