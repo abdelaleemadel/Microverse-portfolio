@@ -15,3 +15,4 @@ function closeMenuF() {
 openMenu.addEventListener("click", function () { openMenuF() });
 console.log(nav, overLay)
 closeMenu.addEventListener("click", function () { closeMenuF() })
+window.scroll(0, 5000)
