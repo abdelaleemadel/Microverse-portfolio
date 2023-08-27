@@ -149,7 +149,7 @@ font-family: 'Poppins', sans-serif;
     background-image: url(../images/Frame.png);
     background-repeat: no-repeat;
     background-position: right bottom;
-    background-size: 35%;
+    background-size: 30%;
     padding: 7.5rem 1.5rem;
     color: white;
     position: relative;
@@ -177,10 +177,23 @@ font-family: 'Poppins', sans-serif;
 
 #skills {
     background-color: var(--main-bg);
-    height: 500px;
-    width: 100%;
-    padding: 7.5rem 1.5rem;
+    padding: 7.5rem 1.5rem 2.38rem;
     color: white;
+}
+
+/* #skills * {
+    border: 1px red solid;
+} */
+
+#skills span {
+    width: 1.125rem;
+    height: 1.125rem;
+    background-color: var(--main-color);
+}
+
+.language span {
+    transform: rotate(-45deg);
+
 }
 
 /* END SKILLS */
