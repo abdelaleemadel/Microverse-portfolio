@@ -15,6 +15,20 @@
     font-family: var(--font-two);
 }
 
+button {
+    transition: all 500ms !important;
+}
+
+button:hover {
+    color: var(--main-color) !important;
+    background-color: #FFF5E1 !important;
+    border: 1px solid var(--main-color) !important;
+}
+
+button:active {
+    color: white !important;
+    background-color: var(--main-color) !important;
+}
 
 /* End General */
 header {
@@ -133,8 +147,9 @@ font-family: 'Poppins', sans-serif;
 
 
 .frame43 {
-    background-image: url(../images/Img\ Placeholder.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.5)), url(../images/Img\ Placeholder.png);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     background-origin: content-box;
     color: white;
