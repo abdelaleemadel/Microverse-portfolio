@@ -6,6 +6,7 @@
     --main-bg: #1C1A19;
     --main-color: #FF6B00;
     --border-color: #212121;
+    --border2-color: #DBD8D7;
 }
 
 /* General */
@@ -212,3 +213,37 @@ font-family: 'Poppins', sans-serif;
 }
 
 /* END SKILLS */
+
+/* FORM  */
+#form {
+    padding: 7.5rem 1.5rem;
+    border-bottom: 1px var(--border2-color) solid;
+}
+
+#form * {
+    margin-bottom: 1.5rem;
+    padding: 0.5rem;
+}
+
+.message-title p {
+    font-family: var(--font-two);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+input {
+    border: 0;
+    border-bottom: 1px var(--border2-color) solid;
+}
+
+textarea {
+    height: 7.125rem;
+    background-color: #FBF8F7;
+    border: 0;
+}
+
+svg {
+    color: red !important;
+}
+
+/* END FORM */
