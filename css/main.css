@@ -247,3 +247,42 @@ svg {
 }
 
 /* END FORM */
+
+
+
+
+/* Media Query */
+@media only screen and (min-width: 768px) {
+    .overLay {
+        width: auto !important;
+        height: auto !important;
+    }
+
+    .overLay>p {
+        font-size: 1rem;
+        border-bottom: 0;
+        margin-inline: 0.5rem;
+        padding-inline: 0.75rem;
+        font-weight: 600;
+        line-height: 1.25rem;
+    }
+}
+
+/* color: #FFF;
+text-align: center;
+font-family: Inter;
+font-size: 0.9375rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.25rem; /* 133.333% */
+
+/* .overLay>p {
+    color: white;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    border-bottom: 1px var(--nav-color) solid;
+    line-height: 44px;
+    padding-block: 5px;
+    font-size: 32px;
+}
+ */

@@ -18,16 +18,21 @@
 
 <body>
     <!-- NAV BAR -->
-    <nav class="position-fixed vw-100 z-3">
-        <div class=" container d-flex overflow-auto align-items-center py-2 justify-content-between d-block ">
-            <p id="logo" class="m-0">My Logo</p>
-            <i class="fa-solid fa-bars fa-lg"></i>
-        </div>
-        <div class="overLay container d-flex flex-column vh-100 vw-100 d-none overflow-auto">
-            <i class="fa-solid fa-xmark fa-xl align-self-end my-4"></i>
-            <p><a href="#">Portfolio</a></p>
-            <p><a href="#about">About</a></p>
-            <p><a href="#">Contact</a></p>
+    <nav class="position-fixed vw-100 z-3 ">
+        <div class="container-md d-md-flex justify-content-center justify-content-md-between align-items-md-baseline">
+            <div
+                class=" d-flex overflow-auto align-items-center py-2 justify-content-between justify-content-md-start d-block ">
+                <p id="logo" class="m-0">My Logo</p>
+                <i class="fa-solid fa-bars fa-lg d-block d-md-none"></i>
+            </div>
+            <div
+                class="overLay container-md px-5 px-md-0 d-flex flex-column me-5 flex-md-row vh-100 vw-100 d-none d-md-flex overflow-auto align-items-baseline ">
+                <i class="fa-solid fa-xmark fa-xl align-self-end my-4 d-md-none"></i>
+                <p class="w-100"><a href="#">Portfolio</a></p>
+                <p class="w-100"><a href="#about">About</a></p>
+                <p class="w-100"><a href="#">Contact</a></p>
+                <i class="fa-regular fa-envelope d-none d-md-inline-block"></i>
+            </div>
         </div>
     </nav>
     <!-- END NAV BAR -->
