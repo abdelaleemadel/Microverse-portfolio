@@ -111,9 +111,7 @@ font-family: 'Poppins', sans-serif;
 
 
 /*  WORK  */
-.featured-img img {
-    background-color: #1C1A19;
-}
+
 
 
 
@@ -274,6 +272,10 @@ svg {
         background-repeat: no-repeat;
         background-position: right;
         background-size: 40%;
+    }
+
+    .action button {
+        visibility: hidden;
     }
 
 }
