@@ -176,6 +176,10 @@ font-family: 'Poppins', sans-serif;
     font: 400 4.5rem var(--font-one) !important;
 }
 
+.about p {
+    width: 80%;
+}
+
 #about::after {
     content: "";
     height: 1px;
@@ -276,6 +280,12 @@ svg {
 
     .action button {
         visibility: hidden;
+    }
+
+    #about {
+        background-image: url(../images/about-pc-bg.png);
+        background-position: right;
+        background-size: 40%;
     }
 
 }
