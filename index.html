@@ -296,21 +296,21 @@
 
         <!-- SKILLS -->
         <section id="skills" class="row gx-0 gy-4">
-            <div class="language row gx-0 gy-1 text-center col-12">
+            <div class="language row gx-0 gy-1 text-center col-12 col-md-4">
                 <h2 class="fw-bold "><span class="d-inline-block me-1"></span> Language</h2>
                 <p>JavaScript</p>
                 <p>Ruby</p>
                 <p>HTML</p>
                 <p>CSS</p>
             </div>
-            <div class="framework row gx-0 gy-1 text-center col-12">
+            <div class="framework row gx-0 gy-1 text-center col-12 col-md-4">
                 <h2 class="fw-bold"><span class="d-inline-block me-1"></span> Frameworks</h2>
                 <p>React.js</p>
                 <p>Ruby on Rails</p>
                 <p>RSpec</p>
                 <p>Capybara</p>
             </div>
-            <div class="skill row gx-0 gy-1 text-center col-12">
+            <div class="skill row gx-0 gy-1 text-center col-12 col-md-4">
                 <h2 class="fw-bold"><span class="d-inline-block me-1 rounded-5"></span> Skills</h2>
                 <p>Database Management</p>
                 <p>Version Control</p>
@@ -322,19 +322,24 @@
         <!-- END SKILLS -->
 
         <!-- Form  -->
-        <section id="form" class="row gy-3 gx-0 ">
-            <div class="message-title col-12 text-center">
-                <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
-                </p>
+        <section id="form" class=" d-flex justify-content-center">
+            <div class="container row gy-3 gx-0">
+                <div class="message-title col-12 col-md-5 text-center text-md-start">
+                    <p>I'm always interested in hearing about new projects, so if you'd like to chat please get in
+                        touch.
+                    </p>
+                </div>
+                <form action="https://formspree.io/f/xknlrlvv" method="post"
+                    class="col-12 col-md-7 text-center flex flex-column justify-content-center">
+                    <input type="text" name="userFullName" placeholder="Full name" maxlength="30" class="w-75" required>
+                    <input type="text" name="userFirstName" placeholder="First Name" maxlength="30" required>
+                    <input type="text" name="userLastName" placeholder="Last Name" maxlength="30" required>
+                    <input type="email" placeholder="Email address" class="w-75" name="userEmail" required>
+                    <textarea name="message" maxlength="500" placeholder="Write me something ..." class="w-75"
+                        name="userMessage" required></textarea>
+                    <button type="submit" class="main-color d-block mx-auto ms-lg-3">Get in touch</button>
+                </form>
             </div>
-            <form action="https://formspree.io/f/xknlrlvv" method="post"
-                class="col-12 text-center flex flex-column justify-content-center">
-                <input type="text" name="userName" placeholder="Full name" maxlength="30" class="w-75" required>
-                <input type="email" placeholder="Email address" class="w-75" name="userEmail" required>
-                <textarea name="message" maxlength="500" placeholder="Write me something ..." class="w-75"
-                    name="userMessage" required></textarea>
-                <button type="submit" class="main-color d-block mx-auto">Get in touch</button>
-            </form>
         </section>
         <!-- END FROM -->
     </main>

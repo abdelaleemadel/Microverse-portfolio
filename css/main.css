@@ -235,6 +235,10 @@ font-family: 'Poppins', sans-serif;
     font-size: 2rem;
 }
 
+input[placeholder$="Name"] {
+    display: none;
+}
+
 input {
     border: 0;
     border-bottom: 1px var(--border2-color) solid;
@@ -287,5 +291,27 @@ svg {
         background-position: right;
         background-size: 40%;
     }
+}
+
+@media only screen and (min-width: 992px) {
+
+    input[placeholder$="name"] {
+        display: none;
+    }
+
+    input[placeholder$="Name"] {
+        display: inline-block;
+        width: 45%;
+        margin-right: 2.5%;
+    }
+
+    input[placeholder="Email address"] {
+        width: 95% !important;
+    }
+
+    #form form textarea {
+        width: 95% !important;
+    }
+
 
 }
