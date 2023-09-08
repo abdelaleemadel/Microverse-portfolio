@@ -9,6 +9,11 @@
     --border2-color: #DBD8D7;
 }
 
+.btn:hover {
+    background-color: var(--main-color) !important;
+    color: white !important;
+}
+
 /* General */
 .main-color {
     color: white;
@@ -283,7 +288,12 @@ svg {
     }
 
     .action button {
-        visibility: hidden;
+        opacity: 0;
+        transition: all 1000ms;
+    }
+
+    .frame43:hover button {
+        opacity: 100;
     }
 
     #about {
@@ -315,3 +325,13 @@ svg {
 
 
 }
+
+
+/* Pop Up */
+#closePopUp,
+#nextPopUp,
+#prevPopUp {
+    cursor: pointer;
+}
+
+/* End Pop Up */
